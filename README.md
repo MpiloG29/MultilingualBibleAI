@@ -1,16 +1,92 @@
-# React + Vite
+# 📖 Multilingual Bible AI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A powerful, open-source Bible search application that works completely offline with support for 20+ languages and all 66 books of the Bible.
 
-Currently, two official plugins are available:
+<img width="1335" height="630" alt="Screenshot (51)" src="https://github.com/user-attachments/assets/5408a0db-6251-44d3-bd27-5945fba147ac" />
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+##  Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+-  20+ Languages - Full UI translation and Bible verses in multiple languages
+-  All 66 Books - Complete information about every book of the Bible with authors and descriptions
+-  Smart Search - Search by topic (Jesus, Love, Faith), book names (Luke, John), or keywords
+-  Offline First - Comprehensive built-in database, no API keys required
+-  Beautiful UI - Gradient design with smooth animations and responsive layout
+-  Copy Verses - One-click copying of verses to clipboard
+-  Search History - Recent searches saved locally
+-  Mobile Friendly - Responsive design that works on all devices
 
-## Expanding the ESLint configuration
+##  Quick Start
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+# Clone the repository
+git clone https://github.com/MpiloG29/MultilingualBibleAI.git
+
+# Navigate to project
+cd MultilingualBibleAI
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+ How to Use
+Select Translation - Choose from KJV, NIV, ESV, NKJV, NLT, AMP, MSG, NASB
+
+Choose Language - Select your preferred language from 20+ options
+
+Search - Enter any topic, name, or book (e.g., "Jesus", "Love", "Luke")
+
+Explore - Click on verses to see context, filter by book, copy to clipboard
+
+Books Panel - Click the floating button to browse all Bible books with author information
+
+ Built-in Database Includes
+Topics: Jesus, Love, Faith, Hope, Peace, Grace, Prayer, Wisdom, Creation, Sin, Salvation, Forgiveness, Heaven
+
+People: David, Moses, Abraham, Paul, Peter
+
+Books: Luke, John, Psalms, Proverbs, and all 66 books with author information
+
+Languages: English, Spanish, French, Portuguese, German, Italian, Russian, Chinese, Japanese, Korean, Arabic, Hebrew, Swahili, Zulu, Hindi, and more
+
+ Built With
+React 18
+
+Vite
+
+LocalStorage for history
+
+Custom CSS animations
+
+📁 Project Structure
+text
+MultilingualBibleAI/
+├── src/
+│   ├── App.jsx           # Main application component
+│   ├── App.css           # Styles
+│   └── main.jsx          # Entry point
+├── public/               # Static assets
+├── index.html           # HTML template
+├── package.json         # Dependencies
+├── vite.config.js       # Vite configuration
+└── README.md           # This file
+ Contributing
+Contributions are welcome! Feel free to:
+
+Add more verses to the database
+
+Improve translations
+
+Add new features
+
+Fix bugs
+
+Improve documentation
+
+ License
+MIT License - feel free to use this project for any purpose.
+
+
+
+Powered by React and open-source libraries.
